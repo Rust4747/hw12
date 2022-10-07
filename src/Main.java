@@ -6,7 +6,7 @@ public class Main {
         Book theIdiot=new Book("Идиот", fyodordostoevsky, 1868);
         System.out.println("Книга:"+theFinalDiagnosis.getTitle()+ " Автор:"+theFinalDiagnosis.getAuthor().getName()
         + " "+theFinalDiagnosis.getAuthor().getSurname()+ " Год публикации:" + theFinalDiagnosis.getPublicationYear());
-        System.out.println("Книга:"+theIdiot.getTitle()+ " Автор:"+theIdiot.getAuthor().getName()+ " "+theIdiot.getAuthor().getSurname()
+        System.out.println("Книга: "+theIdiot.getTitle()+ " Автор:"+theIdiot.getAuthor().getName()+ " "+theIdiot.getAuthor().getSurname()
                 +  " Год публикации:" + theIdiot.getPublicationYear());
         theFinalDiagnosis.setPublicationYear(2005);
         System.out.println("Книга:"+theFinalDiagnosis.getTitle()+ " Автор:"+theFinalDiagnosis.getAuthor().getName()
